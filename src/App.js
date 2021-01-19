@@ -36,6 +36,7 @@ class App extends Component {
     // this equivalent to
     //const monsters = this.state.monsters;
     //const searchField = this.state.searchField;
+    // the first one is better
 
     const filteredMonsters = monsters.filter(monster => monster.name.toLowerCase().includes(searchField.toLocaleLowerCase()))
     return (
